@@ -1,4 +1,4 @@
-# 📦 HUB-LB-COLLECTION
+# 📦 HUB-LB-COLLECTION (APPSMITH USE ONLY)
 
 > **A collection of custom modules that is require in commonly used.**
 
@@ -8,9 +8,10 @@
 
 ---
 
-## 🚀 Features
+## 🚀 Features (currently APPSMITH use only)
 
 - 📅 **Feature 1** – "timestamp" can be used to populate the timestamps in who columns.
+- ⚙️ **Feature 2** – "graphQl" added error handling for graphQl queries.
 
 ---
 
@@ -28,13 +29,24 @@ npm install hub-lb-collection
 
 ## 🔧 Usage
 
-Here’s a basic example to get you started:
+- 📅 **Feature 1 :- Timestamp**
 
 ```
 const collection = require('hub-lb-collection');
 
 const feature = `timestamp`;
 const response = collection(feature);
+
+console.log(response);
+```
+
+- 📅 **Feature 2 :- graphQl**
+
+```
+const collection = require('hub-lb-collection');
+
+const feature = `graphQl`;
+const response = collection(feature, your-query-name, parameters);
 
 console.log(response);
 ```
