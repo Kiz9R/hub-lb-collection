@@ -1,5 +1,5 @@
 {
-  "name": "hub-lb-objects",
+  "name": "hub-lb-collection",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -18,6 +18,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "hub-lb-objects": "file:"
+    "hub-lb-collection": "file:"
   }
 }
