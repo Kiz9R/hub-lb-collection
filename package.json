@@ -1,5 +1,5 @@
 {
-  "name": "api-errors",
+  "name": "hub-lb-objects",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -16,5 +16,8 @@
     "babel-loader": "^9.2.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "hub-lb-objects": "file:"
   }
 }

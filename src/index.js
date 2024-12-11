@@ -1,9 +1,11 @@
 const timestamp = require("./timestamp");
 
-const collection = () => {
-  const data = timestamp();
-
-  return data;
+const collection = (file) => {
+  if (file === "timestamp") {
+    const data = timestamp();
+    return data;
+  }
+  return `Feature not available: ${file}`;
 };
 
 // console.log(collection());
